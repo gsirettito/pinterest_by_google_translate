@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "GoPinterest",
+  "author": "gsirettito",
+  "description": "[hack-life] Navigate on Pinterest through google translate. Developed by gsirettito",
+  "version": "1.0",
+  "icons": {
+    "32": "images/icon_32.png",
+    "128": "images/icon_128.png"
+  },
+  "permissions": [
+    "https://www.pinterest.com/*",
+    "tabs",
+    "scripting"
+  ],
+  "homepage_url": "https://github.com/gsirettito/pinterest_by_google_translate",
+  "update_url": "https://github.com/gsirettito/pinterest_by_google_translate",
+  "background": {
+    "service_worker": "main.js"
+  },
+  "action": {
+    "default_icon": {
+      "32": "/images/icon_32.png",
+      "128": "/images/icon_128.png"
+    }
+  }
+}
